@@ -3,7 +3,13 @@
    width:100%;
    height:450px;
    z-index: 0;
-   
+}
+.logo
+{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    flex
 }
 /*---------------languages----------------*/
 .languages
@@ -16,13 +22,15 @@
     background-color:rgba(197, 191, 191, 0.78);
     color:white;
     font-weight: bold;
-    list-style-type:square;
     direction: rtl;
     z-index:1;
     margin-top:-450px;
     padding:32px;
     width: 271px;
     height: 311px;
+}
+.languages ul li {
+    list-style-type:square;
 }
 /*------------address--------------------*/
 .address
@@ -42,24 +50,28 @@
 /*-------------yello part-----------*/
 .yellow_part
 {
-    justify-content: center;
     position: relative;
-    float:left;
-    background-color: rgba(239, 239, 95, 0.84);
+    float: left;
+    background-color: rgba(242, 225, 36, 0.76);
     color: white;
     z-index: 1;
-    
+    width: 830px;
+    margin-top: -167px;
+    padding-top: -3px;
+    padding-top: 36px;
+    padding-bottom: 35px;
+    padding-inline: 42px;
 }
 .learn
 {
 
     position: relative;
-    font-size:50px;
+    font-size:xx-large;
     font-weight: bold;
     padding:2px;
 }
 .programing
 {
     
-    font-size: 50px;
+    font-size:xx-large;
 }
